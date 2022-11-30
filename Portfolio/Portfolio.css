@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+}
+
+
+#nav-link{
+    width: 100%;
+    background-color: burlywood;
+    height: 4rem;
+    position: fixed;
+    left: 0;
+    top: 0;
+
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+}
+.nav-class{
+    text-align: center;
+}
+.nav-class a{
+    text-decoration: none;
+    color: rgb(10, 2, 2);
+    text-align: center;
+    float: left;
+    padding: 20px 25PX;
+}
+.nav-class a:hover{
+    background-color: rgb(255 255 255);
+    color: black;
+    border-radius: 50px;
+    padding: 23px;
+}
+.aboutme{
+    width: 98vw;
+    background-color: #deb887;
+    text-align: center;
+    bottom: 0;
+    left : 0
+}
+img{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 120px;
+    margin: auto;
+    width: 80vw;
+    overflow: hidden;
+}
